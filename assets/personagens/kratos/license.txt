@@ -1,0 +1,11 @@
+Model Information:
+* title:	LoPo Kratos Breakdancing
+* source:	https://sketchfab.com/3d-models/lopo-kratos-breakdancing-0fba0928163e450d92b3814af1075315
+* author:	tipatat (https://sketchfab.com/tipatat)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "LoPo Kratos Breakdancing" (https://sketchfab.com/3d-models/lopo-kratos-breakdancing-0fba0928163e450d92b3814af1075315) by tipatat (https://sketchfab.com/tipatat) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

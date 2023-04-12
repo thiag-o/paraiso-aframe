@@ -1,0 +1,278 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 41,
+      "max": [
+        1.0,
+        1.0,
+        2.290489912033081
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.6240900158882141
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 492,
+      "componentType": 5126,
+      "count": 41,
+      "max": [
+        0.9156282544136047,
+        0.9156282544136047,
+        0.13336974382400513
+      ],
+      "min": [
+        -0.9156282544136047,
+        -0.9156282544136047,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 72,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 984,
+      "componentType": 5126,
+      "count": 184,
+      "max": [
+        4.023489952087402,
+        4.023489952087402,
+        12.369799613952637
+      ],
+      "min": [
+        -4.023489952087402,
+        -4.023489952087402,
+        1.8333799839019775
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3192,
+      "componentType": 5126,
+      "count": 184,
+      "max": [
+        0.8644306063652039,
+        0.8644306063652039,
+        0.46031856536865234
+      ],
+      "min": [
+        -0.8644306063652039,
+        -0.8644306063652039,
+        -0.989860475063324
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 288,
+      "componentType": 5125,
+      "count": 264,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Master 3D (https://sketchfab.com/mike3z3z)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/pinheiro-em-low-poly-63993130c4424181885092415191e668",
+      "title": "Pinheiro em low poly."
+    },
+    "generator": "Sketchfab-12.65.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1344,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5400,
+      "byteOffset": 1344,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 6744,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Madeira",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.1282368004322052,
+          0.06035209447145462,
+          0.028489552438259125,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.39195884146341464
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Folha",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.04954736679792405,
+          0.0006380762206390474,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.44683689024390244
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Arvore_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Arvore_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        5
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3,
+        4
+      ],
+      "matrix": [
+        0.44616000000000006,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.44616000000000006,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.44616000000000006,
+        0.0,
+        0.0,
+        -0.07418000000000001,
+        0.48333000000000004,
+        1.0
+      ],
+      "name": "Arvore"
+    },
+    {
+      "mesh": 0,
+      "name": "Arvore_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Arvore_1"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        -0.29086000000000006,
+        0.9551700000000001,
+        -0.05519000000000001,
+        0.0,
+        -0.7711,
+        -0.19988000000000003,
+        0.6045200000000001,
+        0.0,
+        0.5663900000000001,
+        0.21839000000000003,
+        0.7946700000000001,
+        0.0,
+        4.076250000000001,
+        1.00545,
+        5.903860000000001,
+        1.0
+      ],
+      "name": "Lamp"
+    },
+    {
+      "name": "Lamp"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

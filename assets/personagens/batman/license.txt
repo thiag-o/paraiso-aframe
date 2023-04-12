@@ -1,0 +1,11 @@
+Model Information:
+* title:	BATMAN HATCH king
+* source:	https://sketchfab.com/3d-models/batman-hatch-king-5b736c81c26d4afa8fa4c98c7590f113
+* author:	darahaschakravarthy (https://sketchfab.com/darahaschakravarthy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "BATMAN HATCH king" (https://sketchfab.com/3d-models/batman-hatch-king-5b736c81c26d4afa8fa4c98c7590f113) by darahaschakravarthy (https://sketchfab.com/darahaschakravarthy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

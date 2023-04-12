@@ -1,0 +1,323 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@fb96ab2/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+    <a-scene
+      inspector="url: https://cdn.jsdelivr.net/gh/aframevr/aframe-inspector@master/dist/aframe-inspector.min.js"
+    >
+      <a-assets>
+        <img id="chao" src="/assets/texturas/chao.jpg" />
+        <img id="parede" src="/assets/texturas/parede.jpg" />
+        <img id="ceu" src="/assets/texturas/ceu.jpg" />
+        <img id="hello_kitty" src="/assets/texturas/hello-kitty.jpg" />
+      </a-assets>
+
+      <a-assets>
+        <a-asset-item
+          id="rick"
+          src="/assets/personagens/rick/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="keanu_reeves"
+          src="/assets/personagens/keanu_reeves/scene.gltf"
+        ></a-asset-item>
+
+        <a-asset-item
+          id="pinheiro"
+          position="-40.382 17.44769 -10.48"
+          src="/assets/ambiente/pinheiro/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="fada"
+          src="/assets/personagens/fada/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="homer"
+          src="/assets/personagens/homer/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="trump"
+          src="/assets/personagens/trump/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="hulk"
+          src="/assets/personagens/hulk/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="bob_esponja"
+          src="/assets/personagens/bob_esponja/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="random"
+          src="/assets/personagens/random/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="hamburger"
+          src="/assets/personagens/hamburger/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="kratos"
+          src="/assets/personagens/kratos/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="sapo"
+          src="/assets/personagens/sapo/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="batman"
+          src="/assets/personagens/batman/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="goku"
+          src="/assets/personagens/goku/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="sasuke"
+          src="/assets/personagens/sasuke/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="dolynho"
+          src="/assets/personagens/dolynho/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="mario"
+          src="/assets/personagens/mario/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="shrek"
+          src="/assets/personagens/shrek/scene.gltf"
+        ></a-asset-item>
+      </a-assets>
+
+      <a-plane
+        position="0 0 0"
+        rotation="-90 0 0"
+        width="500"
+        height="500"
+        src="#chao"
+      ></a-plane>
+
+      <!-- paredes -->
+      <a-cone
+        src="#hello_kitty"
+        radius-bottom="2"
+        scale="11.5 7.01 17.59231"
+        radius-top="0.5"
+        position="11.987 13.909 -68.56122"
+        material=""
+        geometry=""
+      ></a-cone>
+      <a-box
+        src="#parede"
+        depth="40"
+        height="20"
+        width="0.5"
+        position="-4 0 -60"
+      ></a-box>
+      <a-box
+        src="#parede"
+        depth="40"
+        height="20"
+        width="0.5"
+        position="-4 0 -60"
+      ></a-box>
+      <a-box
+        src="#parede"
+        depth="40"
+        height="20"
+        width="0.5"
+        position="26 0 -60"
+      ></a-box>
+      <a-box
+        src="#parede"
+        depth="0.5"
+        height="20"
+        width="30"
+        position="11 0 -80"
+      ></a-box>
+      <a-box
+        src="#parede"
+        depth="0.5"
+        height="20"
+        width="10"
+        position="1 0 -40"
+      ></a-box>
+      <a-box
+        src="#parede"
+        depth="0.5"
+        height="20"
+        width="10"
+        position="21 0 -40"
+      ></a-box>
+
+      <!-- --- -->
+      <a-sky src="#ceu"></a-sky>
+
+      <a-entity
+        position="1 0 -60"
+        scale="1 1 1"
+        gltf-model="#rick"
+        animation-mixer="loop: repeat"
+      ></a-entity>
+      <a-entity
+        position="41.56 -0.013 -36.899"
+        scale="5 5 5"
+        gltf-model="#kratos"
+        animation-mixer=""
+      ></a-entity>
+      <a-entity
+        position="134.08596 -0.013 -170.65946"
+        scale="50 50 50"
+        gltf-model="#shrek"
+        animation-mixer=""
+      ></a-entity>
+      <a-entity
+        position="-34.27911 -0.013 -23.32299"
+        scale="5 5 5"
+        gltf-model="#mario"
+        animation-mixer=""
+        rotation="0 40 0"
+      ></a-entity>
+      <a-entity
+        position="-29.00671 -0.013 -30.97166"
+        scale="5 5 5"
+        gltf-model="#batman"
+        animation-mixer=""
+      ></a-entity>
+      <a-entity
+        position="-19.92243 -0.013 -9.65218"
+        scale="2 2 2"
+        gltf-model="#sasuke"
+        animation-mixer=""
+        rotation="0 40 0"
+      ></a-entity>
+      <a-entity
+        position="7.91398 0 -70.46352"
+        scale="2 2 2"
+        gltf-model="#dolynho"
+        animation-mixer=""
+        rotation="0 1 0"
+      ></a-entity>
+      <a-entity
+        position="0 64.25117 120.93512"
+        scale="22 22 22"
+        gltf-model="#random"
+        rotation="0 180 0"
+        animation="property: rotation; to: 900 900 900; dur: 8000; easing: linear; loop: true"
+      ></a-entity>
+
+      <a-entity
+        position="27.54536 0.16102 0"
+        scale="8 8 8"
+        gltf-model="#trump"
+        animation-mixer=""
+        rotation="0 -40.88 0"
+      ></a-entity>
+      <a-entity
+        position="18.0016 0.161 -28.662"
+        scale="8 8 8"
+        gltf-model="#sapo"
+        animation-mixer=""
+        rotation=""
+      ></a-entity>
+      <a-entity
+        position="-160.51199 -1.55977 -203.01388"
+        scale="50 50 50"
+        gltf-model="#goku"
+        animation-mixer=""
+        rotation="0 59.99999999999999 0"
+      ></a-entity>
+      <a-entity
+        position="60.38493 5.18425 -22.70537"
+        scale=""
+        gltf-model="#bob_esponja"
+        animation-mixer=""
+        animation="property: rotation; to: 0 0 99999999; dur: 1000; easing: linear; loop: true"
+      ></a-entity>
+      <a-entity
+        position="20.385 300 -200.705"
+        scale="100 100 100"
+        gltf-model="#hamburger"
+        rotation="34.6267043487313 -61.826729756976874 -70.95108264443523"
+      ></a-entity>
+
+      <a-entity
+        position="1.08793 14.47713 -29.62614"
+        scale="2 2 2"
+        gltf-model="#keanu_reeves"
+        animation-mixer
+      ></a-entity>
+      <a-entity
+        position="11.96033 0.05642 -67.9292"
+        scale="3 3 3"
+        gltf-model="#homer"
+        id="homer"
+        animation-mixer=""
+      ></a-entity>
+      <a-entity
+        position="-7.81849 2.86097 -6.01574"
+        scale="4 4 4"
+        gltf-model="#fada"
+        id="fada"
+        animation="property: position; to: -7.81849 4.86097 -6.01574; dur: 2000; easing: linear; loop: true"
+      ></a-entity>
+      <a-entity
+        position="-5.81849 2.86097 -6.01574"
+        scale="4 4 4"
+        gltf-model="#fada"
+        id="fada"
+        animation="property: position; to: -5.81849 4.86097 -6.01574; dur: 2000; easing: linear; loop: true"
+      ></a-entity>
+      <a-entity
+        position="10.81849 2.86097 -6.01574"
+        scale="4 4 4"
+        gltf-model="#fada"
+        id="fada"
+        animation="property: position; to: 10.81849 4.86097 -6.01574; dur: 2000; easing: linear; loop: true;"
+      ></a-entity>
+      <a-entity
+        position="18.81849 2.86097 -6.01574"
+        scale="4 4 4"
+        gltf-model="#fada"
+        id="fada"
+        animation="property: position; to: 0 1.5 0; dur: 2000; easing: linear; loop: true"
+      ></a-entity>
+
+      <a-entity
+        position="-40.38202 -0.0729 -10.47971"
+        id="pinheiro"
+        scale="1 1 1"
+        gltf-model="#pinheiro"
+        animation-mixer=""
+      ></a-entity>
+
+      <a-entity
+        position="-50.38202 -0.0729 -10.47971"
+        scale=""
+        gltf-model="#pinheiro"
+        animation-mixer=""
+      ></a-entity>
+      <a-entity
+        position="-60.38202 -0.0729 -10.47971"
+        scale=""
+        gltf-model="#pinheiro"
+        animation-mixer=""
+      ></a-entity>
+      <a-entity
+        position="-70.38202 -0.0729 -10.47971"
+        scale=""
+        gltf-model="#pinheiro"
+        animation-mixer=""
+      ></a-entity>
+      <a-entity
+        position="-80.38202 -0.0729 -10.47971"
+        scale=""
+        gltf-model="#pinheiro"
+        animation-mixer=""
+      ></a-entity>
+    </a-scene>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mario Salsa Dancing
+* source:	https://sketchfab.com/3d-models/mario-salsa-dancing-ae0ad732313749008a9c70a089dbb335
+* author:	renatosg182 (https://sketchfab.com/renatosg182)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mario Salsa Dancing" (https://sketchfab.com/3d-models/mario-salsa-dancing-ae0ad732313749008a9c70a089dbb335) by renatosg182 (https://sketchfab.com/renatosg182) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

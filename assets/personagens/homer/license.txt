@@ -1,0 +1,11 @@
+Model Information:
+* title:	homer head donut (animated)
+* source:	https://sketchfab.com/3d-models/homer-head-donut-animated-da9f1b7076e345d2a8b61a63db73b71d
+* author:	vicente betoret ferrero (https://sketchfab.com/deathcow)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "homer head donut (animated)" (https://sketchfab.com/3d-models/homer-head-donut-animated-da9f1b7076e345d2a8b61a63db73b71d) by vicente betoret ferrero (https://sketchfab.com/deathcow) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
