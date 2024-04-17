@@ -3,7 +3,7 @@
 O Paraíso é um ambiente calmo e tranquilo para você se distrair e sair um pouco da realidade.
 Foi desenvolvido com intuito de descontração e aprendizado do framework [A-Frame](https://aframe.io/).
 
-<img src=".github/paraiso.png" height="500"/>
+<img src=".github/paraiso.png" />
 
 Para entrar clique aqui: [Paraiso](https://aframe-treino.vercel.app/)
 
