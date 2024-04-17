@@ -1,6 +1,6 @@
 # Paraiso Aframe
 
-O Paraíso é um ambiente calmo e tranquilo para você se distrair e sair um pouco da realidade.
+O Paraíso é um ambiente calmo e tranquilo para você se distrair e sair um pouco da realidade.<br/>
 Foi desenvolvido com intuito de descontração e aprendizado do framework [A-Frame](https://aframe.io/).
 
 <img src=".github/paraiso.png" />
