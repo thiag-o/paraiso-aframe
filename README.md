@@ -36,5 +36,5 @@ No Terminal/Console:
 	<li>Faça um clone do projeto na sua máquina: <code>git clone https://github.com/thiag-o/paraiso-aframe.git</code></li>
 	<li>Abra a pasta do projeto no VSCode</li> 
 	<li>Instale e utilize a extensão <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a>  </li>
-	<li>Com a aplicação "de pé", clique aqui: <a href="http://localhost:5500">http://localhost:5500</a></li>
+	<li>Com o live server rodando, clique aqui: <a href="http://localhost:5500">http://localhost:5500</a></li>
 </ol>
